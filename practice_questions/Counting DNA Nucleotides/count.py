@@ -1,6 +1,6 @@
-def moleculesCounter(dnaString):
+def moleculesCounter(dna_string):
     counter = {'A':0, 'C':0, 'G':0, 'T':0}
-    for molecule in dnaString:
+    for molecule in dna_string:
         counter[molecule] += 1
 
     return f"{counter['A']} {counter['C']} {counter['G']} {counter['T']}"

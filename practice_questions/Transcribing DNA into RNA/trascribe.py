@@ -1,13 +1,13 @@
-def transcribe_dna_into_rna(dnaString):
-    rnaString = ''
+def transcribe_dna_into_rna(dna_string):
+    rna_string = ''
 
-    for molecule in dnaString:
+    for molecule in dna_string:
         if molecule == 'T':
-            rnaString += 'U'
+            rna_string += 'U'
         else:
-            rnaString += molecule
+            rna_string += molecule
 
-    return rnaString
+    return rna_string
 
 result = transcribe_dna_into_rna('GATGGAACTTGACTACGTAAATT')
 print(result)
